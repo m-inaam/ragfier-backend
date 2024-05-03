@@ -1,13 +1,10 @@
 python-dotenv
 openai
-cmake
 arabic-reshaper
 Keras
-numpy
 opencv-python
 Pillow
 python-bidi
-scipy
 tensorflow
 flask
 llama-index 
