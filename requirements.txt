@@ -1,9 +1,5 @@
 python-dotenv
 openai
-arabic-reshaper
-Keras
 opencv-python
-Pillow
-python-bidi
-tensorflow
+tensorflow==2.8.1 --no-deps
 flask

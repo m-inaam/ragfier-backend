@@ -2,7 +2,6 @@ from flask import Flask, request, jsonify
 import cv2
 import numpy as np
 import tensorflow as tf
-import arabic_reshaper
 from bidi.algorithm import get_display
 
 app = Flask(__name__)
