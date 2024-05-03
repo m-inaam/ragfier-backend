@@ -1,5 +1,5 @@
 python-dotenv
 openai
 opencv-python
-tensorflow==2.8.1 --no-deps
+tensorflow==2.8.1
 flask
