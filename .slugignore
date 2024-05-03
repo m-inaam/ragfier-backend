@@ -8,11 +8,3 @@
 .python-version
 Pipfile
 Pipfile.lock
-
-# Exclude all Python dependencies except the ones in requirements.txt
-/*
-!python-dotenv/
-!openai/
-!opencv-python/
-!tensorflow-2.8.1/
-!flask/
