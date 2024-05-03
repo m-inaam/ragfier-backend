@@ -1,5 +1,4 @@
 from flask import Flask, request, jsonify
-from PIL import ImageFont, Image, ImageDraw
 import cv2
 import numpy as np
 import tensorflow as tf
@@ -39,10 +38,7 @@ def arsl_predict():
         score = proba[mx] * 100
         res = arsl_categories[mx][0]
         sequence = arsl_categories[mx][1]
-        
-        reshaped_text = arabic_reshaper.reshape(sequence)   
-        bidi_text = get_display(reshaped_text)
-        
+                
         return jsonify({'result': res, 'score': score}), 200
     except Exception as e:
         return jsonify({'error': str(e)}), 500
